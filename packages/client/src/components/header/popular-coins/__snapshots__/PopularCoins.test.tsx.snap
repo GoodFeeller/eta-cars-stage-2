@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PopularCoins testing Snapshot test 1`] = `
+<div
+  class="popularCoinsBody"
+  data-testid="popular-coins"
+>
+  <div
+    class="coinItem"
+    data-testid="coin-item"
+  >
+    <img
+      alt="Not found"
+      src="https://assets.coincap.io/assets/icons/btc@2x.png"
+    />
+    <span>
+      BTC
+    </span>
+    <span>
+      $21,000.23
+    </span>
+  </div>
+  <div
+    class="coinItem"
+    data-testid="coin-item"
+  >
+    <img
+      alt="Not found"
+      src="https://assets.coincap.io/assets/icons/ltc@2x.png"
+    />
+    <span>
+      LTC
+    </span>
+    <span>
+      $21,000.23
+    </span>
+  </div>
+  <div
+    class="coinItem"
+    data-testid="coin-item"
+  >
+    <img
+      alt="Not found"
+      src="https://assets.coincap.io/assets/icons/dgc@2x.png"
+    />
+    <span>
+      DGC
+    </span>
+    <span>
+      $21,000.23
+    </span>
+  </div>
+</div>
+`;

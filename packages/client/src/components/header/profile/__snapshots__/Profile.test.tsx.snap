@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile tests Empty profile snapshot 1`] = `
+<div
+  class="profile"
+  data-testid="profile"
+>
+  <span>
+    Profile
+  </span>
+  <span>
+    TotalPrice:
+     
+    $0.00
+  </span>
+  <span
+    style="color: black;"
+  >
+    $0.00
+  </span>
+  <span
+    style="color: black;"
+  >
+    0%
+  </span>
+</div>
+`;
+
+exports[`Profile tests Full negative profile snapshot 1`] = `
+<div
+  class="profile"
+  data-testid="profile"
+>
+  <span>
+    Profile
+  </span>
+  <span>
+    TotalPrice:
+     
+    $0.00
+  </span>
+  <span
+    style="color: black;"
+  >
+    $0.00
+  </span>
+  <span
+    style="color: black;"
+  >
+    0%
+  </span>
+</div>
+`;
+
+exports[`Profile tests Full positive profile snapshot 1`] = `
+<div
+  class="profile"
+  data-testid="profile"
+>
+  <span>
+    Profile
+  </span>
+  <span>
+    TotalPrice:
+     
+    $0.00
+  </span>
+  <span
+    style="color: black;"
+  >
+    $0.00
+  </span>
+  <span
+    style="color: black;"
+  >
+    0%
+  </span>
+</div>
+`;

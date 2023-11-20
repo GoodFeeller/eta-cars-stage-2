@@ -1,0 +1,5 @@
+﻿packages/client/.idea
+packages/server/.idea
+packages/server/node_modules
+packages/server/.vscode
+node_modules

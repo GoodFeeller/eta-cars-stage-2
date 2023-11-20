@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChartParams testing Snapshot test 1`] = `
+<div
+  class="params"
+  data-testid="params"
+>
+  <span
+    class="chosenParam"
+  >
+    1 Day
+  </span>
+  <span
+    class="param"
+  >
+    7 Days
+  </span>
+  <span
+    class="param"
+  >
+    1 Month
+  </span>
+  <span
+    class="param"
+  >
+    1 Year
+  </span>
+</div>
+`;

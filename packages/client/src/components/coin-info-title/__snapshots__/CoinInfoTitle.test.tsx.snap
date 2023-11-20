@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoinInfoTitle test Snapshot test 1`] = `
+<div
+  class="body"
+  data-testid="title"
+>
+  <a
+    class="link"
+    href="/"
+  >
+    Back
+  </a>
+  <span>
+    COIN INFO
+  </span>
+</div>
+`;

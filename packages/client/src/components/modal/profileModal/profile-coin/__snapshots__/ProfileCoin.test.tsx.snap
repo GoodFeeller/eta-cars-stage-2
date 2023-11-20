@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile coin test Full page snapshot 1`] = `
+<div
+  class="coinItem"
+  data-testid="profile-coin"
+>
+  <div>
+    <div>
+      <img
+        alt="Not found"
+        src="https://assets.coincap.io/assets/icons/btc@2x.png"
+      />
+      <span>
+        BTC
+      </span>
+    </div>
+    <span>
+      Price:
+       
+      $20,000.00
+    </span>
+    <span>
+      Count: 
+      3
+    </span>
+  </div>
+  <button>
+    remove
+  </button>
+</div>
+`;

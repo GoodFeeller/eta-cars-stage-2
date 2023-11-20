@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableHeader test PriceUsd test down 1`] = `
+Array [
+  <thead
+    data-testid="thead"
+  >
+    <tr>
+      <th>
+        #
+      </th>
+      <th
+        class="imgTd"
+      >
+        Name
+      </th>
+      <th>
+        Price (down)
+      </th>
+      <th>
+        Market Cap
+      </th>
+      <th>
+        24h%
+      </th>
+      <th />
+    </tr>
+  </thead>,
+]
+`;
+
+exports[`TableHeader test PriceUsd test up 1`] = `
+Array [
+  <thead
+    data-testid="thead"
+  >
+    <tr>
+      <th>
+        #
+      </th>
+      <th
+        class="imgTd"
+      >
+        Name
+      </th>
+      <th>
+        Price (up)
+      </th>
+      <th>
+        Market Cap
+      </th>
+      <th>
+        24h%
+      </th>
+      <th />
+    </tr>
+  </thead>,
+]
+`;
+
+exports[`TableHeader test Rank test down 1`] = `
+Array [
+  <thead
+    data-testid="thead"
+  >
+    <tr>
+      <th>
+        # (down)
+      </th>
+      <th
+        class="imgTd"
+      >
+        Name
+      </th>
+      <th>
+        Price
+      </th>
+      <th>
+        Market Cap
+      </th>
+      <th>
+        24h%
+      </th>
+      <th />
+    </tr>
+  </thead>,
+]
+`;
+
+exports[`TableHeader test Rank test up 1`] = `
+Array [
+  <thead
+    data-testid="thead"
+  >
+    <tr>
+      <th>
+        # (up)
+      </th>
+      <th
+        class="imgTd"
+      >
+        Name
+      </th>
+      <th>
+        Price
+      </th>
+      <th>
+        Market Cap
+      </th>
+      <th>
+        24h%
+      </th>
+      <th />
+    </tr>
+  </thead>,
+]
+`;
+
+exports[`TableHeader test changePercent24Hr test down 1`] = `
+Array [
+  <thead
+    data-testid="thead"
+  >
+    <tr>
+      <th>
+        #
+      </th>
+      <th
+        class="imgTd"
+      >
+        Name
+      </th>
+      <th>
+        Price
+      </th>
+      <th>
+        Market Cap
+      </th>
+      <th>
+        24h% (down)
+      </th>
+      <th />
+    </tr>
+  </thead>,
+]
+`;
+
+exports[`TableHeader test changePercent24Hr test up 1`] = `
+Array [
+  <thead
+    data-testid="thead"
+  >
+    <tr>
+      <th>
+        #
+      </th>
+      <th
+        class="imgTd"
+      >
+        Name
+      </th>
+      <th>
+        Price
+      </th>
+      <th>
+        Market Cap
+      </th>
+      <th>
+        24h% (up)
+      </th>
+      <th />
+    </tr>
+  </thead>,
+]
+`;
+
+exports[`TableHeader test marketCapUsd test down 1`] = `
+Array [
+  <thead
+    data-testid="thead"
+  >
+    <tr>
+      <th>
+        #
+      </th>
+      <th
+        class="imgTd"
+      >
+        Name
+      </th>
+      <th>
+        Price
+      </th>
+      <th>
+        Market Cap (down)
+      </th>
+      <th>
+        24h%
+      </th>
+      <th />
+    </tr>
+  </thead>,
+]
+`;
+
+exports[`TableHeader test marketCapUsd test up 1`] = `
+Array [
+  <thead
+    data-testid="thead"
+  >
+    <tr>
+      <th>
+        #
+      </th>
+      <th
+        class="imgTd"
+      >
+        Name
+      </th>
+      <th>
+        Price
+      </th>
+      <th>
+        Market Cap (up)
+      </th>
+      <th>
+        24h%
+      </th>
+      <th />
+    </tr>
+  </thead>,
+]
+`;

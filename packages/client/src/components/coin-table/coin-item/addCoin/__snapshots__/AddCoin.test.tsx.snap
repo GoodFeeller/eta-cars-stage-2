@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddCoin test Snapshot test 1`] = `
+<button
+  class="addButton"
+>
+  ADD
+</button>
+`;

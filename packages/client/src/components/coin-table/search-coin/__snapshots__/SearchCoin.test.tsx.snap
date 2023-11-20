@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchCoin test Snapshot \`test\` search test 1`] = `
+<input
+  class="searchBody"
+  data-testid="search"
+  placeholder="Coin name..."
+  type="text"
+  value="bitcoin"
+/>
+`;
+
+exports[`SearchCoin test Snapshot test 1`] = `
+<input
+  class="searchBody"
+  data-testid="search"
+  placeholder="Coin name..."
+  type="text"
+  value=""
+/>
+`;

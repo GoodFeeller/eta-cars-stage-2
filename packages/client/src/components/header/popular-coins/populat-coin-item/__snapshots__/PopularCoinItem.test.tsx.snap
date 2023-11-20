@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PopularCoinItem test PopularCoinItem snapshot test 1`] = `
+<div
+  class="coinItem"
+  data-testid="coin-item"
+>
+  <img
+    alt="Not found"
+    src="https://assets.coincap.io/assets/icons/btc@2x.png"
+  />
+  <span>
+    BTC
+  </span>
+  <span>
+    $21,000.23
+  </span>
+</div>
+`;
