@@ -8,5 +8,10 @@ export default {
   rootDir: 'packages/',
   moduleNameMapper: {
     "\\.(css|less|scss|sss|styl)$": "identity-obj-proxy"
-  }
+  },
+  collectCoverage: true,
+  coverageDirectory: "coverage",
+  coverageProvider: "v8",
+  testResultsProcessor: "../node_modules/jest-html-reporter"
+
 };
