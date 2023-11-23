@@ -1,6 +1,6 @@
-import coinRouter from './coin-api/coin-router'
-import historyRouter from './history-api/history-router'
-import { router } from './trpc'
+import coinRouter from './coin-api/coin-router.ts'
+import historyRouter from './history-api/history-router.ts'
+import { router } from './trpc.ts'
 
 const appRouter = router({
   coin: coinRouter,

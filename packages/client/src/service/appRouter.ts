@@ -3,7 +3,7 @@ import { appRouterType } from '../../../server/src/appRouter'
 const trpc = createTRPCProxyClient<appRouterType>({
   links: [
     httpBatchLink({
-      url: 'https://eta-cars-internship-api.onrender.com/trpc',
+      url: 'http://localhost:4000/trpc',
     }),
   ],
 })

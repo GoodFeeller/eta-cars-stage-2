@@ -1,92 +1,42 @@
 {
-    "name": "eta-car-test",
-    "version": "0.1.0",
-    "private": true,
-    "dependencies": {
-        "@testing-library/jest-dom": "^5.17.0",
-        "@trpc/client": "^10.43.0",
-        "@types/chartjs": "^0.0.31",
-        "@types/node": "^16.18.59",
-        "@types/react": "^18.2.29",
-        "@types/react-dom": "^18.2.13",
-        "axios": "^1.5.1",
-        "chart.js": "^4.4.0",
-        "chartjs": "^0.3.24",
-        "chartjs-plugin-annotation": "^3.0.1",
-        "react": "^18.2.0",
-        "react-chartjs-2": "^5.2.0",
-        "react-dom": "^18.2.0",
-        "react-router-dom": "^6.17.0",
-        "react-scripts": "5.0.1",
-        "sass": "^1.69.4",
-        "scss": "^0.2.4",
-        "typescript": "^4.9.5",
-        "web-vitals": "^2.1.4"
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test --coverage --reporters=jest-html-reporters",
-        "eject": "react-scripts eject",
-        "lint": "eslint --ext .tsx src --fix",
-        "storybook": "storybook dev -p 6006",
-        "build-storybook": "storybook build"
-    },
-    "jest": {
-        "collectCoverageFrom": [
-            "src/**/*.{js,jsx,ts,tsx}",
-            "!**/node_modules/**",
-            "!**/src/stories/**",
-            "!**/src/types/**"
-        ],
-        "coverageThreshold": {
-            "global": {
-                "branches": 80,
-                "functions": 80,
-                "lines": 80,
-                "statements": 80
-            }
-        },
-        "coverageReporters": [
-            "text"
-        ]
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    },
-    "devDependencies": {
-        "@storybook/addon-essentials": "^7.5.2",
-        "@storybook/addon-interactions": "^7.5.2",
-        "@storybook/addon-links": "^7.5.2",
-        "@storybook/addon-onboarding": "^1.0.8",
-        "@storybook/blocks": "^7.5.2",
-        "@storybook/preset-create-react-app": "^7.5.2",
-        "@storybook/react": "^7.5.2",
-        "@storybook/react-webpack5": "^7.5.2",
-        "@storybook/testing-library": "^0.2.2",
-        "@testing-library/react": "^14.1.2",
-        "@testing-library/user-event": "^13.5.0",
-        "@types/css-modules": "^1.0.4",
-        "@types/cypress": "^1.1.3",
-        "@types/jest": "^29.5.8",
-        "@types/testing-library__react": "^10.2.0",
-        "@types/testing-library__user-event": "^4.2.0",
-        "babel-plugin-named-exports-order": "^0.0.2",
-        "cypress": "^13.5.0",
-        "jest": "^27.5.1",
-        "jest-html-reporters": "^3.1.4",
-        "pnp-webpack-plugin": "^1.7.0",
-        "prop-types": "^15.8.1",
-        "storybook": "^7.5.2",
-        "webpack": "^5.89.0"
-    }
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "cypress": "cypress open"
+  },
+  "dependencies": {
+    "@trpc/client": "^10.44.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "chart.js": "^4.4.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "sass": "^1.69.5"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.5.3",
+    "@storybook/addon-interactions": "^7.5.3",
+    "@storybook/addon-links": "^7.5.3",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.5.3",
+    "@storybook/react": "^7.5.2",
+    "@storybook/react-vite": "^7.5.3",
+    "@storybook/testing-library": "^0.2.2",
+    "@testing-library/react": "^14.1.2",
+    "@types/react": "^18.2.38",
+    "@types/react-dom": "^18.2.15",
+    "cypress": "^13.6.0",
+    "storybook": "^7.5.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  }
 }

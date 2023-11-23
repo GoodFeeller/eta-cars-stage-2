@@ -1,7 +1,7 @@
 import { ICoin } from '../../../../types/ICoin'
 import { render, screen } from '@testing-library/react'
-import PopularCoinItem from './PopularCoinItem'
-import { BrowserRouter, useNavigate } from 'react-router-dom'
+import PopularCoinItem from './PopularCoinItem.tsx'
+import { BrowserRouter } from 'react-router-dom'
 import userEvent from '@testing-library/user-event'
 
 const coin: ICoin = {

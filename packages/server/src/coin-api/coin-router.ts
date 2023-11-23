@@ -1,7 +1,7 @@
 import axios, { type AxiosResponse } from 'axios'
-import { publicProcedure, router } from '../trpc'
+import { publicProcedure, router } from '../trpc.ts'
 import { z } from 'zod'
-import { type IResponse, type ICoin } from '../types/coin'
+import { type IResponse, type ICoin } from '../types/coin.ts'
 const baseUrl = 'https://api.coincap.io/v2/assets'
 const coinArrOutput = publicProcedure.output((value) => {
   const arr: ICoin[] = []

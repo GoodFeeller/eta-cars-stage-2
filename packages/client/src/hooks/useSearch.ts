@@ -9,7 +9,7 @@ function useSearch() {
   const [coins, setCoins] = useState<ICoin[]>([])
   const [end, setEnd] = useState<boolean>(false)
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+   
   useEffect(() => {
     const getData = async () => {
       if (loading && !end) {
@@ -39,7 +39,7 @@ function useSearch() {
       setLoading(false)
     }
     getNewData()
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+     
   }, [search])
 
   useEffect(() => {

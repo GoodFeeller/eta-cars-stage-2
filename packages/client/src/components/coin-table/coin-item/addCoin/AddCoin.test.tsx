@@ -1,7 +1,7 @@
 import { render, screen, act } from '@testing-library/react'
-import AddCoin from './AddCoin'
+import AddCoin from './AddCoin.tsx'
 import { ICoin } from '../../../../types/ICoin'
-import { AddContext } from '../../../../providers/AddContext'
+import { AddContext } from '../../../../providers/AddContext.tsx'
 import { FunctionComponent, PropsWithChildren, useState } from 'react'
 import userEvent from '@testing-library/user-event'
 const coin: ICoin = {

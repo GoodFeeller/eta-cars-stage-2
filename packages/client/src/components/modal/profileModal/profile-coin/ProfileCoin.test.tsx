@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react'
 import { IProfileCoin, IProfileTotal } from '../../../../service/ProfileTypes'
-import ProfileCoin from './ProfileCoin'
+import ProfileCoin from './ProfileCoin.tsx'
 import userEvent from '@testing-library/user-event'
 
 const coin: IProfileCoin = {

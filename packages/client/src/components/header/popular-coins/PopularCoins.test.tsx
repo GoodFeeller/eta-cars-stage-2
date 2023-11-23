@@ -1,8 +1,6 @@
-import PopularCoinService from '../../../service/PopularCoinService'
-import { ICoin } from '../../../types/ICoin'
+import { ICoin } from '../../../types/ICoin.ts'
 import { act, render, screen } from '@testing-library/react'
-import PopularCoins from './PopularCoins'
-import { useNavigate } from 'react-router-dom'
+import PopularCoins from './PopularCoins.tsx'
 const coins: ICoin[] = [
   {
     rank: '1',

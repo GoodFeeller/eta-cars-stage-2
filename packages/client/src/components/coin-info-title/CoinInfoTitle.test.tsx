@@ -13,7 +13,7 @@ describe('CoinInfoTitle test', () => {
     const title = screen.queryByTestId('title')
     expect(title).toMatchSnapshot()
   })
-  test('Link test, url must be localhost:3000/', () => {
+  test('Link test, url must be localhost/', () => {
     render(
       <BrowserRouter>
         <CoinInfoTitle />

@@ -1,6 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import Profile from './Profile'
-import useProfile from '../../../hooks/useProfile'
+import Profile from './Profile.tsx'
 import { IProfileTotal } from '../../../service/ProfileTypes'
 
 describe('Profile tests', () => {
