@@ -35,10 +35,10 @@ function useChartInfo(
   })
   useEffect(() => {
     const info = history
-      .filter((e, i) => i % 3 === 0)
+      .filter((_e, i) => i % 3 === 0)
       .map((e) => Number(e.priceUsd))
     const dates = history
-      .filter((e, i) => i % 3 === 0)
+      .filter((_e, i) => i % 3 === 0)
       .map((e) => customizeDate(interval, e))
     setData({
       labels: dates,

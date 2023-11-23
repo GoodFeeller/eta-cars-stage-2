@@ -1,6 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
 import SearchCoin from '../components/coin-table/search-coin/SearchCoin'
-import { FunctionComponent, PropsWithChildren, useState } from 'react'
 const meta: Meta<typeof SearchCoin> = {
   component: SearchCoin,
 }
