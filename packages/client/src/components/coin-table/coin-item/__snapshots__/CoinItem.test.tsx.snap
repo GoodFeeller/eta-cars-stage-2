@@ -23,6 +23,7 @@ exports[`CoinItem test Default item snapshot 1`] = `
     $32,131,412,123.23
   </td>
   <td
+    data-testid="percent"
     style="color: green;"
   >
     0.24%
@@ -37,4 +38,33 @@ exports[`CoinItem test Default item snapshot 1`] = `
     </button>
   </td>
 </tr>
+`;
+
+exports[`CoinItem test Empty item test snapshot 1`] = `null`;
+
+exports[`CoinItem test Percent must be black 1`] = `
+<td
+  data-testid="percent"
+  style="color: black;"
+>
+  0%
+</td>
+`;
+
+exports[`CoinItem test Percent must be green 1`] = `
+<td
+  data-testid="percent"
+  style="color: green;"
+>
+  0.24%
+</td>
+`;
+
+exports[`CoinItem test Percent must be red 1`] = `
+<td
+  data-testid="percent"
+  style="color: red;"
+>
+  -0.24%
+</td>
 `;

@@ -22,7 +22,7 @@ const AddProvider: FunctionComponent<PropsWithChildren<unknown>> = ({
 }) => {
   const [coin, setCoin] = useState<ICoin | null>(null)
   return (
-    <AddContext.Provider value={{ coin, setCoin }}>
+    <AddContext.Provider data-testid='provider' value={{ coin, setCoin }}>
       {children}
     </AddContext.Provider>
   )

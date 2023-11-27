@@ -8,6 +8,7 @@ const Modal: FunctionComponent<PropsWithChildren<unknown>> = ({ children }) => {
   const { setShow } = useContext(ProfileContext)
   return (
     <div
+      data-testid='modal'
       onClick={() => {
         setCoin(null)
         setShow(false)

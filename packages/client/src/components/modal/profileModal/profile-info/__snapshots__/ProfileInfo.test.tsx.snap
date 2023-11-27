@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile info test Text must be black snapshot 1`] = `
+[
+  <div
+    class="infoBlock"
+    data-testid="profile-info"
+  >
+    <span
+      class="profilePrice"
+    >
+      Total price:
+       
+      $100.00
+    </span>
+    <span
+      class="changes"
+      style="color: black;"
+    >
+      $0.00
+    </span>
+    <span
+      style="color: black;"
+    >
+      0%
+    </span>
+  </div>,
+]
+`;
+
+exports[`Profile info test Text must be green snapshot 1`] = `
+[
+  <div
+    class="infoBlock"
+    data-testid="profile-info"
+  >
+    <span
+      class="profilePrice"
+    >
+      Total price:
+       
+      $150.00
+    </span>
+    <span
+      class="changes"
+      style="color: green;"
+    >
+      $50.00
+    </span>
+    <span
+      style="color: green;"
+    >
+      33.33%
+    </span>
+  </div>,
+]
+`;
+
+exports[`Profile info test Text must be red snapshot 1`] = `
+[
+  <div
+    class="infoBlock"
+    data-testid="profile-info"
+  >
+    <span
+      class="profilePrice"
+    >
+      Total price:
+       
+      $50.00
+    </span>
+    <span
+      class="changes"
+      style="color: red;"
+    >
+      -$50.00
+    </span>
+    <span
+      style="color: red;"
+    >
+      -100%
+    </span>
+  </div>,
+]
+`;

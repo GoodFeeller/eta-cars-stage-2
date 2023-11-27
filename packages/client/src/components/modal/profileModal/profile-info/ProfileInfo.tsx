@@ -7,7 +7,7 @@ interface IProps {
 }
 const ProfileInfo: FunctionComponent<IProps> = ({ nowPrice, oldPrice }) => {
   return (
-    <div className={styles.infoBlock}>
+    <div data-testid='profile-info' className={styles.infoBlock}>
       <span className={styles.profilePrice}>
         Total price:{' '}
         {Intl.NumberFormat('en', {

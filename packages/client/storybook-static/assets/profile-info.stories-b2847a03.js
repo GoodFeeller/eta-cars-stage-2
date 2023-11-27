@@ -1,0 +1,7 @@
+import{j as o}from"./jsx-runtime-ffb262ed.js";import{s}from"./ProfileModal.module-86f43cba.js";import"./index-76fb7be0.js";import"./_commonjsHelpers-de833af9.js";const a=({nowPrice:r,oldPrice:e})=>o.jsxs("div",{className:s.infoBlock,children:[o.jsxs("span",{className:s.profilePrice,children:["Total price:"," ",Intl.NumberFormat("en",{style:"currency",currency:"USD"}).format(r)]}),o.jsx("span",{style:r-e<0?{color:"red"}:r-e>0?{color:"green"}:{color:"black"},className:s.changes,children:Intl.NumberFormat("en",{style:"currency",currency:"USD"}).format(r-e)}),o.jsx("span",{style:r-e<0?{color:"red"}:r-e>0?{color:"green"}:{color:"black"},children:r===0?"0%":Intl.NumberFormat("en",{maximumFractionDigits:2}).format((r-e)/r*100)+"%"})]});try{a.displayName="ProfileInfo",a.__docgenInfo={description:"",displayName:"ProfileInfo",props:{oldPrice:{defaultValue:null,description:"",name:"oldPrice",required:!0,type:{name:"number"}},nowPrice:{defaultValue:null,description:"",name:"nowPrice",required:!0,type:{name:"number"}}}}}catch{}const d={component:a},t={args:{nowPrice:200,oldPrice:100}};var n,c,l;t.parameters={...t.parameters,docs:{...(n=t.parameters)==null?void 0:n.docs,source:{originalSource:`{
+  args: {
+    nowPrice: 200,
+    oldPrice: 100
+  }
+}`,...(l=(c=t.parameters)==null?void 0:c.docs)==null?void 0:l.source}}};const f=["FirstStory"];export{t as FirstStory,f as __namedExportsOrder,d as default};
+//# sourceMappingURL=profile-info.stories-b2847a03.js.map

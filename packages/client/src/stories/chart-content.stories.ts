@@ -22,6 +22,7 @@ export const WithoutData: Story = {
 }
 export const WithData: Story = {
   args: {
+    interval: 'd1',
     history: [
       {
         priceUsd: '20769.0494134645551845',

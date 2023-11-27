@@ -21,7 +21,7 @@ const ProfileProvider: FunctionComponent<PropsWithChildren<unknown>> = ({
 }) => {
   const [show, setShow] = useState<boolean>(false)
   return (
-    <ProfileContext.Provider value={{ show, setShow }}>
+    <ProfileContext.Provider data-testid='provider' value={{ show, setShow }}>
       {children}
     </ProfileContext.Provider>
   )

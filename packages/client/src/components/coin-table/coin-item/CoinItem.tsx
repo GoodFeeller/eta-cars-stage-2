@@ -31,6 +31,7 @@ const CoinItem: FunctionComponent<{ item: ICoin }> = ({ item }) => {
             }).format(Number(item.marketCapUsd))}
           </td>
           <td
+            data-testid='percent'
             style={
               Number(item.changePercent24Hr) < 0
                 ? { color: 'red' }

@@ -1,3 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Modal testing Snapshot test 1`] = `Promise {}`;
+exports[`Modal testing Snapshot test 1`] = `
+<div
+  class="modalBody"
+  data-testid="modal"
+>
+  <div />
+</div>
+`;

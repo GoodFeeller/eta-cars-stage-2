@@ -62,6 +62,9 @@ describe('TableHeader test', () => {
     expect(property.textContent).toContain('priceUsd')
     expect(to.textContent).toContain('up')
     expect(head).toMatchSnapshot()
+    userEvent.click(prop)
+    userEvent.click(prop)
+    expect(to.textContent).toContain('up')
   })
   test('PriceUsd test down', async () => {
     await act(async () =>
